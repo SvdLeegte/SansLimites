@@ -254,7 +254,7 @@ body {
   display: block;
   overflow-x: hidden;
   overflow-y: auto;
-  color: #303030;
+  color: #2f4f4f;
   font: 14px/1.7 "Raleway", sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -599,7 +599,7 @@ section {
     height: 100%; }
 
 #about-hero-image::before {
-  background: url("../images/backgrounds/06.jpg") no-repeat center center;
+  background: url("../images/backgrounds/06.") no-repeat center center;
   background-size: cover; }
 #about-hero-image .layer {
   background-color: rgba(255, 255, 255, 0.2); }
@@ -1189,10 +1189,12 @@ figure.effect-goliath:hover p {
     line-height: 130px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
-    transition: all 0.3s; }
+    transition: all 0.3s;
+    }
   .cbp-af-header .navbar-default, .cbp-af-header .navbar-toggle, .cbp-af-header .navbar-toggle:hover, .cbp-af-header .navbar-toggle:focus {
     background-color: transparent;
-    border: none; }
+    border: none;
+}
   .cbp-af-header .navbar-collapse {
     margin-top: 40px;
     border: none; }
@@ -1204,7 +1206,9 @@ figure.effect-goliath:hover p {
     float: left; }
     .cbp-af-header h1 a {
       font-family: "Montserrat", sans-serif;
-      font-weight: 600; }
+      font-weight: 600;
+      color: #FFFFFF;
+    }
   .cbp-af-header .navbar-nav > li > a {
     letter-spacing: 2px;
     font-weight: 500; }
@@ -1316,7 +1320,7 @@ figure.effect-goliath:hover p {
   height: 100%;
   margin-left: -300px;
   overflow-y: auto;
-  background: #101010; }
+  background-color:#f2f2f2; }
 
 #wrapper.toggled #sidebar-wrapper {
   width: 300px; }
@@ -1335,7 +1339,8 @@ figure.effect-goliath:hover p {
   width: 100%;
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+}
   .sidebar-nav li {
     text-indent: 40px;
     line-height: 30px;
@@ -1343,7 +1348,7 @@ figure.effect-goliath:hover p {
     .sidebar-nav li a {
       display: block;
       text-decoration: none;
-      color: #999999;
+      color: #5377A4;
       text-transform: uppercase;
       letter-spacing: 2px;
       font-family: "Montserrat", sans-serif;
@@ -1351,11 +1356,11 @@ figure.effect-goliath:hover p {
       .sidebar-nav li a:hover {
         text-decoration: none;
         color: #fff;
-        background: rgba(255, 255, 255, 0.1); }
+        background: rgba(47, 79, 79, 0.1); }
       .sidebar-nav li a:active, .sidebar-nav li a:focus {
         text-decoration: none; }
     .sidebar-nav li a.current {
-      color: #fff; }
+      color: #5377A4; }
   .sidebar-nav > .sidebar-brand {
     text-align: center;
     text-indent: 0;
@@ -1364,13 +1369,14 @@ figure.effect-goliath:hover p {
       font-size: 32px;
       margin-top: 39px;
       line-height: 60px;
-      color: #fff;
+      color: #5377A4;
+
       text-transform: uppercase; }
       .sidebar-nav > .sidebar-brand a span {
         font-size: 100px; }
       .sidebar-nav > .sidebar-brand a:hover {
-        color: #fff;
-        background: none; }
+        color: #5377A4;
+        background: #f2f2f2}
 
 #menu-toggle {
   position: fixed;
@@ -1409,16 +1415,16 @@ figure.effect-goliath:hover p {
     color: #a7a7a7; }
 
 .bottom-widget {
-  background: #101010;
+  background-color: #f2f2f2;
   position: absolute;
   width: 300px;
   bottom: 0;
   padding: 60px;
-  color: #fff; }
+  color: #f2f2f2; }
   .bottom-widget a i {
     font-size: 21px; }
   .bottom-widget a:hover i {
-    color: #f2f2f2; }
+    color: #fff; }
 
 .cbp-af-header.toggled {
   padding-left: 300px; }
@@ -1463,6 +1469,7 @@ figure.effect-goliath:hover p {
 
   #menu-toggle {
     opacity: 0; } }
+
 /*------------------------------------------------------------------
 [13. Media Query]
 */
@@ -1478,7 +1485,7 @@ figure.effect-goliath:hover p {
 
   .navbar-collapse.in {
     border-color: #f2f2f2;
-    background: #f2f2f2;
+    background: ##E4F2DB;
     margin: 0 !important;
     position: fixed;
     width: 100%;
